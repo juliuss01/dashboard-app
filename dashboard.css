@@ -154,7 +154,8 @@ nav {
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
 }
-.c-img{
+
+.c-img {
     width: 20px;
     height: 18px;
     padding-left: 2px;
@@ -166,11 +167,12 @@ nav {
     text-align: left;
     justify-items: left;
     gap: 0px;
-    margin-left:-40px;
+    margin-left: -40px;
     margin-top: 15px;
     margin-bottom: 50px;
-    
+
 }
+
 .btm>p {
     font-size: 12px;
     font-weight: 500;
@@ -178,4 +180,125 @@ nav {
     line-height: 16px;
     margin-bottom: -10px;
     margin-left: 0px;
+}
+
+@media (max-width: 500px) {
+    .sidebar {
+        width: 100px;
+        padding: 12px;
+        gap: 15px;
+    }
+
+    .s1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        gap: 0px;
+        cursor: pointer;
+        background-color: #ECFFECBA;
+        border: none;
+        padding: 0px;
+        border-radius: 8px;
+        width: 166px;
+        height: 39.59px;
+        border-color: #ECFFECBA;
+    }
+
+    .s1 {
+        width: 100px;
+        height: 30px;
+        gap: 0px;
+    }
+
+    .s2 {
+        width: 100px;
+        height: 30px;
+        gap: 5px;
+    }
+
+    .s1>p {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .s1>p,
+    .s2>p,
+    .cs>h1,
+    .btm>p,
+    .cs-btn,
+    .cs>p {
+        font-size: 8px;
+    }
+
+    .power-icon {
+        width: 25px;
+        height: 25px;
+        margin-bottom: 10px;
+        padding-top: 8px;
+        left: 90px;
+    }
+
+    .d-img {
+        width: 12px;
+        height: 10px;
+        margin-right: 0px;
+        padding-right: 12px;
+        margin-left: -5px;
+    }
+
+    .o-img,
+    .p-img,
+    .pay-img,
+    .settings-img {
+        width: 12px;
+        height: 12px;
+        padding: 0px 10px;
+    }
+
+    .s-img {
+        width: 12px;
+        height: 9px;
+        padding: 0px 10px;
+    }
+
+    .cs-btn {
+        width: 90px;
+        height: 30px;
+        font-size: 7px;
+    }
+
+    .cs {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+        gap: 0px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+
+    .c-img {
+        width: 12px;
+        height: 12px;
+        padding-left: 1px;
+    }
+
+    .btm {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-items: center;
+        gap: 0px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        margin-left: -15px;
+    }
+
+    .btm>p {
+        color: white;
+        line-height: 16px;
+        margin-bottom: -10px;
+    }
 }
